@@ -84,8 +84,8 @@ Based on the concepts presented in this section, the following code computes the
 
 ![image](https://github.com/user-attachments/assets/b5266ee6-efe0-4120-9dab-0fabf4606847)
 
-### non-maxima suppression (NMS) 
-In order to locate corners, we now have to perform a non-maxima suppression (NMS) to:
+### Non-Maximum Suppression (NMS) 
+In order to locate corners, we now have to perform a non-maximum suppression (NMS) to:
 •	Ensure that we get the pixel with maximum cornerness in a local neighborhood and
 •	Prevent corners from being too close to each other as we prefer an even spread of corners throughout the image.
 
